@@ -1,0 +1,916 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* Background Picture */
+
+
+#main{
+    background-image: url(background_image.png);
+    width: 100%;
+    height: 90vh;
+    background-position:top;
+    background-repeat:  no-repeat, repeat;
+    background-size: 2000px;
+  
+}
+
+/* Navigation Bar Style */
+
+nav{
+    width: 100%;
+    background-color:white ;
+    height: 100px;
+    line-height: 90px;
+    display: flex;
+    flex-direction: row;
+       
+}
+nav .img{
+    flex:20%;
+
+}
+nav ul {
+    float: right;
+    float: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 4px;
+    margin: 0 10px ;
+}
+#main nav ul li .buttons{
+    border-radius: 4px;
+    background-color: white;
+    border-color:#488eff;
+    font-size: 18px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-bottom: 7px;
+    padding-top:7px;
+    color: #488EFF;
+    text-align: center;
+    
+}
+#main nav ul li .buttons : hover{
+    border-color: blue;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family:'Nunito Sans', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+/* Background Pictre Texts */
+
+#text{
+    color: black;
+    padding: 120px;
+    padding-top: 10px;
+
+}
+ h1 {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    
+}
+h4 {
+    font-size: 21px;
+    font-style: italic;
+    font-weight:bold;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Nunito', sans-serif ;
+}
+#text button {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #488EFF;
+    border-radius: 10px 0px 10px 0px;
+    margin-top: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+#text button:hover{
+    background-color: white;
+    color: #488EFF;
+}
+
+/* Featured On Section */
+
+#featured {
+    font-family: 'Alegreya', 'serif';
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    float: center;
+
+}
+.container{
+    max-width: 2000px;
+    margin: auto;
+    overflow:auto;
+    max-height: 2000px;
+    margin-left: 140px ;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+.gallery{
+    margin: 5px;
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    display: block;
+    padding: -10px;
+    padding-left: 10px;
+
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.imgs{
+    margin-top: 10px;
+
+}
+
+.main{
+    background-color: #A8C8E947;
+    /*background-color: #72A5DA47;*/
+    /*background-color: #ACCAE947;*/
+    display : flex;
+    flex-direction: row;
+    /* flex: 60%; */
+
+}
+
+/* WOrdPress Maintaince Expert */
+
+.second{
+  
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-left: 10%;
+}   
+.abc{
+   
+    margin-top: -590px;
+    margin-right: 10%;
+
+}
+.right{
+  
+    width: 80%;
+    margin-left: 60%;
+    margin-bottom: 30%;
+    position: relative;
+}
+
+.top{
+
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-top: 10%;
+    margin-right: 35%;
+}
+.top h1{
+    color:black;
+    font-size:42px; ;
+    font-family:'Alegreya', 'serif'; ;
+    font-style:normal ;
+    font-weight: bolder;
+}
+.left{
+   flex: 60%; 
+   padding: 10%;
+}
+.left h1{
+    color: black;
+    font-size:30px; ;
+    font-family:'Alegreya', 'serif'; 
+    font-style: normal;
+    font-weight: bold;
+}
+.left p{
+    color: black;
+    font-size: 15px; ;
+    font-family:'Nunito', sans-serif;
+    font-style:normal;
+    letter-spacing: 1px;
+    line-height: 160%;
+}
+.left a{
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: 'black'; 
+
+}
+
+ 
+/* Our Feature Section */
+
+.our{
+    text-align: center;
+    padding:2%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+
+    
+}
+.our h1{
+    font-size: 42px;
+    font-family:'Alegreya', 'serif';  
+    font-weight: bold;
+    color:black;
+    
+}
+.our p{
+    font-size: 21px;
+    font-family:'Nunito Sans', 'sans-serif';  
+    font-weight: 600;
+    color:black;
+}
+.block1{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11% ;
+    margin-right: 10%;
+    margin-bottom: 5%;     
+   /* display:flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;*/
+ 
+      
+}
+.block1l{
+    flex: 40%;
+}
+  
+.block1r{
+    padding: 7%;
+    flex: 60%;
+    /*padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 20%;
+    padding-right: 0%;
+    flex: 60%;*/
+
+}
+
+.block1r h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+.block1r p{
+    color:black;
+    font-size:18px;
+    font-weight: 500;
+    font-family:'Nunito Sans', 'sans-serif';
+    
+}
+.block1r a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+}
+.block1r a:hover{
+    color: #488EFF;
+}
+.block2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11% ;
+    margin-right: 10%;
+    margin-bottom: 5%;    
+}
+.block2l{
+    padding: 7%;
+    flex: 60%;
+}
+.block2l h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+
+.block2l p{
+    color:black;
+    font-size: 18px;
+    font-weight:500;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 2px;
+}
+.block2l a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+
+}
+.block2l a:hover{
+    color: #488EFF;
+}
+
+.block2r{
+    flex: 40%;
+}
+.block3{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11% ;
+    margin-right: 10%;
+    margin-bottom: 8%;  
+}
+.block3l{
+    float: 40%;
+}
+.block3r{
+    padding: 7%;
+    flex: 60%;
+
+}
+.block3r h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+.block3r p{
+    color:black;
+    font-size: 16px;
+    font-weight:500;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 2px;
+}
+.block3r a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 0px;
+
+}
+.block3r a:hover{
+    color: #488EFF;
+}
+
+.block4{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-bottom: 5%;    
+}
+.block4l{
+    padding: 7%;
+    flex: 60%;
+}
+.block4l h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+
+.block4l p{
+    color:black;
+    font-size: 18px;
+    font-weight:500;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 2px;
+}
+.block4l a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+}
+.block4l a:hover{
+    color: #488EFF;
+}
+
+.block4r{
+    flex: 40%;
+}
+.block5{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11% ;
+    margin-right: 10%;
+    margin-bottom: 5%;     
+}
+.block5l{
+    float: 40%;
+}
+.block5r{
+    padding: 2%;
+    flex: 60%;
+  
+}
+.block5r h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+.block5r p{
+    color:black;
+    font-size: 18px;
+    font-weight:500;
+    font-family:'Nunito Sans', 'sans-serif';
+
+}
+.block5r a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+}
+.block5r a:hover{
+    color: #488EFF;
+}
+.block6{
+    display:flex;
+    flex-direction: row;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-bottom: 10%;    
+}
+.block6l{
+    padding: 7%;
+    flex: 60%;
+}
+.block6r{
+    flex: 40%;
+}
+
+.block6l h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Alegreya', 'serif'; 
+}
+
+.block6l p{
+    color:black;
+    font-size: 18px;
+    font-weight:500;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 2px;
+}
+.block6l a{
+    font-size: 17.5px;
+    font-weight:bold;
+    font-family:'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+}
+.block6l a:hover{
+    color: #488EFF;
+}
+
+
+/* What Client Say Section */
+
+.client{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: -5%;
+}
+.client h1{
+    font-size: 42px ;
+    font-weight:bold;
+    font-family:'Alegreya', 'serif';  
+    text-align: center;
+}
+.client p{
+    font-size: 21px ;
+    font-weight:550;
+    font-family:'Nunito Sans', 'sans-serif';
+    text-align: center;
+}
+
+.background{
+    background-color: #A8C8E947;
+    /*background-color: #72A5DA47;*/
+    /*background-color: #ACCAE947;*/
+    display : flex;
+    flex-direction: column;
+    flex: 80%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 5%;
+}
+.within{
+    padding: 5%;
+    text-align: center;
+
+}
+.within h2{
+    font-size:30px ;
+    font-weight:bold;
+    font-style: normal;
+    font-family: 'Alegreya', 'serif';
+
+}
+.within p{
+   font-size:21px ;
+   font-weight:normal;
+   font-style: italic;
+   font-family: 'Nunito Sans', 'sans-serif'; 
+}
+.within p1{
+    font-size:21px ;
+    font-weight:normal;
+    font-style: italic;
+    font-family: 'Nunito Sans', 'sans-serif'; 
+
+}
+
+.xyz{
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    position: relative;
+    margin-top: -130px;
+}
+.xyz1{
+    flex: 33.3%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.xyz2{
+    flex: 33.3%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.xyz3{
+    flex: 33.3%;
+    margin-left: 6%;
+    margin-top: 5%;
+}  
+.p3{
+    color:#488EFF;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Nunito Sans', 'sans-serif'; 
+    font-weight: normal;
+    position: center;
+    margin-left: 45%;
+}
+
+/* Get Started Button Section */
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    
+    margin-bottom: 5%;
+    border-radius: 0px 40px 0px 40px;
+    background-color: #2C3964;
+
+}
+.end1{
+    flex: 80%; 
+    padding:4%;
+}
+
+.end1 h1{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    font-family:'Alegreya', 'serif';  
+
+}
+.end1 p{
+    color: white;
+    font-size 18px;
+    font-weight:normal;
+    font-family:'Nunito Sans', 'sans-serif';
+}
+
+.end2{
+    flex: 20%;
+    padding: 10%;    
+}
+.end .end2 button{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #488EFF;
+    border-radius: 10px 0px 10px 0px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  
+}
+.end .end2 button:hover{
+    background-color: white;
+    color: #488EFF;
+}
+
+/* Fotter Section */
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+.f1{
+    flex: 35%;
+    margin-left: 4%;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+.f1 h1{
+    color:black;
+    font-size: 27px;
+    font-weight:600;
+    font-family: 'Nunito Sans', 'sans-serif';
+     font-style: normal;
+}
+.f1 ul{
+    width: 100%;
+    padding-right: 20%;
+    margin-right: 10%;
+}
+.f1 ul li{
+    
+    list-style-type: none;
+
+}
+.f1 ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+    text-decoration: none !important;
+}
+.f2{
+    flex: 15%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.f2 h1{
+    color:black;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Alegreya', 'serif';  
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.f2 ul li{
+    
+    list-style-type: none;
+  
+
+}
+.f2 ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+    font-style: normal;
+    text-decoration: none !important;
+}
+
+.f3 {
+    flex: 15%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.f3 h1{
+    color:black;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Alegreya', 'serif';  
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.f3 ul li{
+    
+    list-style-type: none;
+ 
+
+}
+.f3 ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+    font-style: normal;
+    text-decoration: none !important;
+}
+
+.f4{
+    flex: 15%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.f4 h1{
+    color:black;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Alegreya', 'serif';  
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.f4 ul li{
+    
+    list-style-type: none; 
+   
+
+}
+.f4 ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', 'sans-serif';
+    letter-spacing: 1px;
+    font-style: normal;
+    text-decoration: none !important;
+}
+
+/* CopyRight Section  */
+.copyright{
+    
+    margin-bottom: 1%;
+    text-align: left;
+    padding-left: 18%;
+ 
+    
+}
+.theend i{
+
+    padding-bottom: 4px;
+}
+.theend h5{
+
+    color: black;
+    font-family:'Nunito Sans', 'sans-serif'; 
+    font-size: 16px;
+    font-style: normal;
+    
+}
+
+.theend h5 span{
+ 
+    color:#488EFF;
+    font-family:'Nunito Sans', 'sans-serif'; 
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 3%;
+}
+
+/* Social-Media icons styling*/
+
+.micon{
+
+    float: right; 
+    margin-bottom: 2%;
+    margin-top: -2%;
+    margin-left: 8%;
+    padding-right:20%;
+    letter-spacing: 6px;
+
+}   
+
+
+
+
+/* js */
+
+/* 
+.burger{
+    display: none;
+    cursor: pointer;
+
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+   background-color:  black;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width:768px){
+    .nav.ul{
+        width: 150%;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow: hidden;
+    }
+    .nav.ul{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+   
+        
+
+    }
+    .nav ul li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translate(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translate(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+
+}
+.toggle .line2{
+    opacity: 0;
+    
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    
+}
+*/
